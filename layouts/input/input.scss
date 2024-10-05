@@ -1,0 +1,26 @@
+div.container_input{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    justify-content: center;
+
+    label{
+        color: #696969;
+        font-size: 14px;
+    }
+     
+    input{
+        background-color: #fff;
+        border: none;
+        padding: .75rem;
+        border: 1px solid #000000;
+        border-radius: 5px;
+        outline: none;
+        font-size: 1rem;
+
+        &::placeholder{
+            font-size: .8rem;
+        }
+
+    }
+}

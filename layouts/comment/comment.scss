@@ -1,0 +1,112 @@
+
+
+.comment_container{
+
+    margin-top: 1rem;
+
+
+    div.creater_comment{
+        margin-bottom: 1rem;
+        width: 100%;
+        height: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: start;
+        align-items: center;
+
+        .image{
+            width: 50px;
+            height: 100%;
+            height: 50px;
+            width: 55px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-right: 1rem;
+            
+            img{
+                width: 100%;
+                height: 100%;
+                
+            }
+            
+        }
+        
+        div.desc{
+            width: 100%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: start;
+            justify-content: center;
+
+            .name_section{
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                gap: .5rem;
+                margin-bottom: .2rem;                
+                
+                p.name_comment{
+                    line-height: 16px;
+                    height: 50%;
+                    font-size: 15px;
+                    font-weight: 700;
+                    color: #333232;
+                }
+                
+                
+                div.time{
+
+                    font-size: .7rem;
+                    color: #696969;
+                    font-weight: bold;
+                
+            }
+            }
+            .comment{
+                p{
+                    font-size: 14px;
+                    font-weight: bolder;
+                    word-break: break-all;
+                    padding-right: .5rem;
+                }
+            }
+
+            div.options_comment{
+                display: flex;
+                gap: 1rem;
+                
+                a{
+                    font-size: 12px;
+                    color: rgb(30, 30, 212);
+                    
+                    &:hover{
+                        color: rgba(4, 163, 4, 0.87);
+                    }
+                }
+        }
+    }
+
+        .point{
+            font-size: 1.5rem;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding-top: -13px;
+            padding-bottom: .75rem;            
+            height: 0rem;
+            width: 1.5rem;
+            cursor: pointer;
+            color: #555555;
+            
+            & :hover{
+                color: #000000;
+                transition: .5s ease-in-out;
+                font-size: 1.6rem;
+            }
+
+
+        }
+    }
+
+}
